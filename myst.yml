@@ -1,0 +1,64 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: ab22083f-5871-4237-95e1-c2006f9feea5
+
+  title: Matematica.jl
+  subject: Início
+  description: Um caderno digital sobre o uso da linguagem de programação Julia no ensino de matemática básica
+
+  license: MIT
+
+  keywords:
+    - SPAECE
+    - jogo concreto
+    - baixo custo
+    - ensino médio
+    
+  github: https://github.com/OnMat/Matematica.jl
+  
+  toc:
+    - file: index.md
+    - file: orientacoes.md
+    - file: atividades.md
+      children:
+        - file: numeros/index.md
+          children:
+            - file: numeros/atividade1.md
+            - file: numeros/atividade2.md
+            - file: numeros/atividade3.md
+        - file: algebra/index.md
+          children:
+            - file: algebra/Sistemas Lineares.ipynb
+            - file: algebra/atividade5.md
+        - file: geometria/index.md
+          children:
+            - file: geometria/atividade4.md
+            - file: geometria/atividade5.md
+        - file: medidas/index.md
+          children:
+            - file: medidas/atividade6.md
+            - file: medidas/atividade7.md
+            - file: medidas/atividade8.md
+            - file: medidas/atividade9.md
+        - file: estatistica/index.md
+          children:
+            - file: informacao/atividade10.md
+            - file: informacao/atividade11.md
+            - file: informacao/atividade12.md
+    - file: sobre.md
+
+  exclude:
+    - README.md
+    - LICENSE
+
+site:
+  template: book-theme
+  options:
+    style: public/style.css
+    logo: public/logo.svg
+    folders: true
+  actions:
+    - title: GitHub
+      url: https://github.com/OnMat/SPAECE-Games
+  #   favicon: favicon.ico
