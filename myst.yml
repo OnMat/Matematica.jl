@@ -15,6 +15,16 @@ project:
     - baixo custo
     - ensino médio
     
+  authors:
+    - name: José Jailton A. do Nascimento
+      affiliations:
+        - PROFMAT, Universidade Federal do Cariri
+    - name: Vicente Helano F. Batista Sobrinho
+      affiliations:
+        - PROFMAT, Universidade Federal do Cariri
+  
+  abstract: foo bar
+    
   github: https://github.com/OnMat/Matematica.jl
   
   toc:
@@ -46,11 +56,45 @@ project:
             - file: estatistica/atividade10.md
             - file: estatistica/atividade11.md
             - file: estatistica/atividade12.md
-    - file: sobre.md
+    - file: agradecimentos.md
 
   exclude:
     - README.md
     - LICENSE
+    
+  exports:
+    - format: typst
+      template: lapreprint-typst
+      kind: "Caderno Digital"
+      open-access: true
+      logo: public/logo.svg
+      paper-size: "A4"
+      heading-numbering: "1.a.i"
+      font-face: "Times"
+      articles:
+        - index.md
+        - orientacoes.md
+        - atividades.md
+        - numeros/index.md
+        - numeros/Teste de Primalidade.ipynb
+        - numeros/atividade2.md
+        - numeros/atividade3.md
+        - algebra/index.md
+        - algebra/Sistemas Lineares.ipynb
+        - algebra/atividade5.md
+        - geometria/index.md
+        - geometria/atividade4.md
+        - geometria/atividade5.md
+        - medidas/index.md
+        - medidas/atividade6.md
+        - medidas/atividade7.md
+        - medidas/atividade8.md
+        - medidas/atividade9.md
+        - estatistica/index.md
+        - estatistica/atividade10.md
+        - estatistica/atividade11.md
+        - estatistica/atividade12.md
+        - agradecimentos.md
 
 site:
   template: book-theme
