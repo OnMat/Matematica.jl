@@ -1,6 +1,7 @@
 ---
 title: Orientações gerais
 subject: SPAECE Games
+authors: ""
 ---
 
 Os jogos aqui propostos compõem...
