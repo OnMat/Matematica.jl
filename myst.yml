@@ -53,7 +53,7 @@ project:
             - file: medidas/atividade9.md
         - file: estatistica/index.md
           children:
-            - file: estatistica/atividade10.md
+            - file: estatistica/Probabilidade .ipynb
             - file: estatistica/atividade11.md
             - file: estatistica/atividade12.md
     - file: agradecimentos.md
