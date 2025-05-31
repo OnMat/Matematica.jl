@@ -43,7 +43,7 @@ project:
             - file: algebra/atividade5.md
         - file: geometria/index.md
           children:
-            - file: geometria/atividade4.md
+            - file: geometria/angulo_comp.ipynb
             - file: geometria/atividade5.md
         - file: Gradezas e Medidas/index.md
           children:
