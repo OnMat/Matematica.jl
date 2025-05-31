@@ -15,7 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 ## Materiais necessários
 
-* Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+* Um computador com o Jupyter Notebook instaldo e o kernel da ligugem Julia;
 * Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 :::{note}
