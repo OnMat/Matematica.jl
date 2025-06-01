@@ -44,7 +44,9 @@ project:
         - file: geometria/index.md
           children:
             - file: geometria/angulo_comp.ipynb
-            - file: geometria/atividade5.md
+            - file: geometria/atividade02.ipynb
+            - file: geometria/atividade03.ipynb
+            - file: Atividades Complementares.ipynb
         - file: Gradezas e Medidas/index.md
           children:
             - file: Conversora de Unidades de Massa.ipynb
