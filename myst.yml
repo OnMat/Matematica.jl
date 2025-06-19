@@ -39,7 +39,7 @@ project:
             - file: numeros/atividade3.md
         - file: algebra/index.md
           children:
-            - file: algebra/Sistemas Lineares.ipynb
+            - file: algebra/atividade01.ipynb
             - file: algebra/atividade5.md
         - file: geometria/index.md
           children:
