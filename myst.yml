@@ -35,7 +35,7 @@ project:
         - file: numeros/index.md
           children:
             - file: numeros/Teste de Primalidade.ipynb
-            - file: numeros/atividade2.md
+            - file: numeros/atividade02.ipynb
             - file: numeros/atividade3.md
         - file: algebra/index.md
           children:
