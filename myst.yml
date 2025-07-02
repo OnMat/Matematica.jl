@@ -39,8 +39,9 @@ project:
             - file: numeros/atividade3.md
         - file: algebra/index.md
           children:
-            - file: algebra/atividade01.ipynb
-            - file: algebra/atividade5.md
+            - file: algebra/atividade02.ipynb
+            - file: algebra/atividade03.ipynb
+            - file: algebra/atividade04.ipynb
         - file: geometria/index.md
           children:
             - file: geometria/angulo_comp.ipynb
