@@ -58,7 +58,7 @@ project:
             - file: medidas/atividade03.ipynb
         - file: estatistica/index.md
           children:
-            - file: atividade01.ipynb
+            - file: estatistica/atividade01.ipynb
             - file: estatistica/atividade11.md
             - file: estatistica/atividade12.md
     - file: agradecimentos.md
