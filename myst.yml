@@ -47,9 +47,8 @@ project:
             - file: geometria/atividade02.ipynb
             - file: geometria/atividade03.ipynb
             - file: Atividades Complementares.ipynb
-        - file: medidas/index.md
+        - file: medidas/atividade01.ipynb
           children:
-            - file: medidas/atividade01.ipynb
             - file: medidas/atividade02.ipynb
             - file: medidas/atividade03.ipynb
         - file: estatistica/index.md
