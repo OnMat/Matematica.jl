@@ -34,7 +34,6 @@ project:
       children:
         - file: numeros/index.md
           children:
-            - file: numeros/Teste de Primalidade.ipynb
             - file: numeros/atividade02.ipynb
             - file: numeros/atividade3.md
         - file: algebra/index.md
@@ -48,15 +47,14 @@ project:
             - file: geometria/atividade02.ipynb
             - file: geometria/atividade03.ipynb
             - file: Atividades Complementares.ipynb
-        - file: Gradezas e Medidas/index.md
+        - file: medidas/index.md
           children:
-            - file: Conversora de Unidades de Massa.ipynb
-            - file: medidas/atividade7.md
-            - file: medidas/atividade8.md
-            - file: medidas/atividade9.md
+            - file: medidas/atividade01.ipynb
+            - file: medidas/atividade02.ipynb
+            - file: medidas/atividade03.ipynb
         - file: estatistica/index.md
           children:
-            - file: estatistica/Probabilidade.ipynb
+            - file: atividade01.ipynb
             - file: estatistica/atividade11.md
             - file: estatistica/atividade12.md
     - file: agradecimentos.md
