@@ -34,8 +34,11 @@ project:
       children:
         - file: numeros/index.md
           children:
+            - file: numeros/atividade01.ipynb
             - file: numeros/atividade02.ipynb
-            - file: numeros/atividade3.md
+            - file: numeros/atividade03.ipynb
+            - file: numeros/atividade04.ipynb
+            - file: numeros/atividade05.ipynb
         - file: algebra/index.md
           children:
             - file: algebra/atividade01.ipynb
