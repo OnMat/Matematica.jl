@@ -34,6 +34,7 @@ project:
       children:
         - file: numeros/index.md
           children:
+            - file: numeros/atividade00.ipynb
             - file: numeros/atividade01.ipynb
             - file: numeros/atividade02.ipynb
             - file: numeros/atividade03.ipynb
@@ -50,8 +51,9 @@ project:
             - file: geometria/atividade02.ipynb
             - file: geometria/atividade03.ipynb
             - file: Atividades Complementares.ipynb
-        - file: medidas/atividade01.ipynb
+        - file: medidas/index.md
           children:
+            - file: medidas/atividade01.ipynb
             - file: medidas/atividade02.ipynb
             - file: medidas/atividade03.ipynb
         - file: estatistica/index.md
