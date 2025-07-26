@@ -49,7 +49,7 @@ project:
           children:
             - file: geometria/atividade01.ipynb
             - file: geometria/atividade02.ipynb
-            - file: geometria/atividade02.ipynb
+            - file: geometria/atividade03.ipynb
             - file: Atividades Complementares.ipynb
         - file: medidas/index.md
           children:
