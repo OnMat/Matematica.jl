@@ -47,7 +47,7 @@ project:
             - file: algebra/atividade03.ipynb
         - file: geometria/index.md
           children:
-            - file: geometria/angulo_comp.ipynb
+            - file: geometria/atividade01.ipynb
             - file: geometria/atividade02.ipynb
             - file: geometria/atividade03.ipynb
             - file: Atividades Complementares.ipynb
