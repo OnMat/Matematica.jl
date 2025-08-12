@@ -30,37 +30,36 @@ project:
   toc:
     - file: index.md
     - file: orientacoes.md
-    - file: atividades.md
+    - file: familiarizacao/index.md
+    - file: algebra/index.md
       children:
-        - file: numeros/index.md
-          children:
-            - file: numeros/atividade00.ipynb
-            - file: numeros/atividade01.ipynb
-            - file: numeros/atividade02.ipynb
-            - file: numeros/atividade03.ipynb
-            - file: numeros/atividade04.ipynb
-            - file: numeros/atividade05.ipynb
-        - file: algebra/index.md
-          children:
-            - file: algebra/atividade01.ipynb
-            - file: algebra/atividade02.ipynb
-            - file: algebra/atividade03.ipynb
-        - file: geometria/index.md
-          children:
-            - file: geometria/atividade01.ipynb
-            - file: geometria/atividade02.ipynb
-            - file: geometria/atividade03.ipynb
-            - file: Atividades Complementares.ipynb
-        - file: medidas/index.md
-          children:
-            - file: medidas/atividade01.ipynb
-            - file: medidas/atividade02.ipynb
-            - file: medidas/atividade03.ipynb
-        - file: estatistica/index.md
-          children:
-            - file: estatistica/atividade01.ipynb
-            - file: estatistica/atividade02.ipynb
-            - file: estatistica/atividade03.ipynb
+#        - file: algebra/atividade01.ipynb
+        - file: algebra/atividade02.ipynb
+        - file: algebra/atividade03.ipynb
+    - file: numeros/index.md
+      children:
+#        - file: numeros/atividade00.ipynb
+        - file: numeros/atividade01.ipynb
+        - file: numeros/atividade02.ipynb
+        - file: numeros/atividade03.ipynb
+        - file: numeros/atividade04.ipynb
+        - file: numeros/atividade05.ipynb
+    - file: geometria/index.md
+      children:
+        - file: geometria/atividade01.ipynb
+        - file: geometria/atividade02.ipynb
+        - file: geometria/atividade03.ipynb
+        - file: Atividades Complementares.ipynb
+    - file: medidas/index.md
+      children:
+        - file: medidas/atividade01.ipynb
+        - file: medidas/atividade02.ipynb
+        - file: medidas/atividade03.ipynb
+    - file: estatistica/index.md
+      children:
+        - file: estatistica/atividade01.ipynb
+        - file: estatistica/atividade02.ipynb
+        - file: estatistica/atividade03.ipynb
     - file: agradecimentos.md
 
   exclude:
@@ -80,25 +79,6 @@ project:
         - index.md
         - orientacoes.md
         - atividades.md
-        - numeros/index.md
-        - numeros/Teste de Primalidade.ipynb
-        - numeros/atividade2.md
-        - numeros/atividade3.md
-        - algebra/index.md
-        - algebra/Sistemas Lineares.ipynb
-        - algebra/atividade5.md
-        - geometria/index.md
-        - geometria/atividade4.md
-        - geometria/atividade5.md
-        - medidas/index.md
-        - medidas/atividade6.md
-        - medidas/atividade7.md
-        - medidas/atividade8.md
-        - medidas/atividade9.md
-        - estatistica/index.md
-        - estatistica/atividade10.md
-        - estatistica/atividade11.md
-        - estatistica/atividade12.md
         - agradecimentos.md
 
 site:
