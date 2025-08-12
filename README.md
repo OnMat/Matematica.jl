@@ -1,2 +1,4 @@
 # Matematica.jl
-Um caderno digital sobre o uso da linguagem de programação Julia no ensino de matemática básica
+Um caderno digital em Julia para o ensino de matemática básica
+
+Acesse o livro [aqui](https://onmat.github.io/Matematica.jl/)!
