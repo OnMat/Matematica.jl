@@ -1,15 +1,14 @@
 ---
-title: Probabilidade e Estatística
-subject: Atividades
+title: Dois M's da Estatística
+subject: Sequência Didática
 ---
 
+A construção da calculadora denominada _Calculadora de Tendências Centrais_ tem por finalidade trabalhar os conceitos e a aplicação das medidas de tendência central — média e mediana.
 
-In this tutorial, we'll cover the basics of the Jupyter Book ecosystem, and step you through creating, building, and publishing your first book.
+## Descritores relacionados
 
-:::{warning} A note for Windows users
+- D77: Resolver problema utilizando a média aritmética.
 
-Não esqueça de...
-:::
+## Carga horária
 
-Confira os jogos desta seção a seguir.
-
+Quatro aula de 50 minutos 

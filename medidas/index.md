@@ -1,15 +1,15 @@
 ---
-title: Grandezas e Medidas
-subject: Atividades
+title: Jogo das Três Medidas
+subject: Sequência Didática
 ---
 
 
-In this tutorial, we'll cover the basics of the Jupyter Book ecosystem, and step you through creating, building, and publishing your first book.
+Esta atividade está fundamentada em uma abordagem lúdica, por meio de um jogo, desenvolvido com o intuito de revisar os conceitos relacionados à massa e suas unidades de medida.
 
-:::{warning} A note for Windows users
+## Descritores relacionados
 
-Não esqueça de...
-:::
+- D15: Resolver problema utilizando relações entre diferentes unidades de medida.
 
-Confira os jogos desta seção a seguir.
+## Carga horária
 
+Quatro aula de 50 minutos. 

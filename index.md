@@ -1,9 +1,9 @@
 ---
 title: Introdução
-# description: 
+# description:
 ---
 
-Esta página contém o produto da dissertação *Jogos concretos de baixo custo alinhados aos descritores de matemática do SPAECE* apresentada ao Programa de Pós-graduação em Matemática em Rede Nacional da Universidade Federal do Cariri.
+Esta página contém o produto da dissertação *Explorando Cadernos Digitais no Ensino de Matemática com Julia* apresentada ao Programa de Pós-graduação em Matemática em Rede Nacional da Universidade Federal do Cariri.
 
 ```{tableofcontents}
 :depth: 2

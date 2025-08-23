@@ -1,7 +1,7 @@
 ---
 title: Agradecimentos
 subject: Matematica.jl
-authors: "José Jailton Azevedo do Nascimento"
+authors: ""
 ---
 
 
