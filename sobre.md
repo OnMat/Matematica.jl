@@ -35,7 +35,7 @@ Para citar o trabalho:
   title   = "Explorando Cadernos Digitais no Ensino de Matemática com Julia",
   school  = "Universidade Federal do Cariri/PROFMAT",
   address = "Juazeiro do Norte, CE",
-  year    = "2026"
+  year    = "2025"
 }
 ```
 
