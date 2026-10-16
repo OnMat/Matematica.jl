@@ -48,11 +48,11 @@ project:
 # Prefácio (não aparece no site, só no PDF)
       preface_place: Juazeiro do Norte, CE, Brasil
       preface_date: outubro de 2026
-      preface_signature: José Jailton A. do Nascimento
+      preface_signature: José Jailton Azevedo do Nascimento
       preface: |
         Os resultados das avaliações externas mostram, ano após ano, que algumas habilidades da matemática do ensino fundamental resistem ao ensino tradicional: calcular o valor numérico de uma expressão algébrica, operar com frações, converter unidades de medida, interpretar coordenadas no plano ou calcular uma média. Várias dessas habilidades, que integram a matriz de referência do Sistema Permanente de Avaliação da Educação Básica do Ceará (SPAECE) para o 9º ano, estão entre as que apresentam os maiores índices de erro.
 
-        Este material contém o produto educacional da dissertação “Explorando Cadernos Digitais no Ensino de Matemática com Julia”, apresentada ao Programa de Pós-Graduação em Matemática em Rede Nacional da Universidade Federal do Cariri. O produto é um conjunto de cadernos digitais, escritos em Jupyter Notebook com a linguagem de programação Julia, organizados em sequências didáticas que contemplam as cinco unidades temáticas da Base Nacional Comum Curricular.
+        Este material contém o produto educacional da dissertação “Explorando Cadernos Digitais no Ensino de Matemática Básica com Julia”, apresentada ao Programa de Pós-Graduação em Matemática em Rede Nacional da Universidade Federal do Cariri. O produto é um conjunto de cadernos digitais, escritos em Jupyter Notebook com a linguagem de programação Julia, organizados em sequências didáticas que contemplam as cinco unidades temáticas da Base Nacional Comum Curricular.
 
         A proposta parte da resolução de problemas. Organizados em grupos, os estudantes enfrentam situações-problema contextualizadas, no estilo das avaliações externas, e decidem com o professor quais recursos da linguagem usar para resolvê-las. Ao longo das sequências, eles constroem calculadoras e conversores, jogam e programam suas próprias soluções, de modo que o computador deixa de ser apenas uma ferramenta de cálculo e passa a ser um meio de investigação matemática.
 
