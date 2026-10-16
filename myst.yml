@@ -5,89 +5,86 @@ project:
 
   title: Matematica.jl
   subject: Início
-  description: Um caderno digital sobre o uso da linguagem de programação Julia no ensino de matemática básica
-
-  license: MIT
+  description: >-
+    Caderno digital em Julia para o ensino de matemática nos anos finais do Ensino
+    Fundamental. Sequências didáticas, cadernos Jupyter e orientações ao professor.
 
   keywords:
     - SPAECE
-    - Caderno digital Jupyter Notebook
+    - caderno digital
+    - Jupyter Notebook
     - Julia
     - ensino fundamental
-    
+
+  github: https://github.com/OnMat/Matematica.jl
+
   authors:
     - name: José Jailton A. do Nascimento
-      affiliations:
-        - PROFMAT, Universidade Federal do Cariri
+      affiliation: Universidade Federal do Cariri
     - name: Vicente Helano F. Batista Sobrinho
-      affiliations:
-        - PROFMAT, Universidade Federal do Cariri
-  
-  abstract: foo bar
-    
-  github: https://github.com/OnMat/Matematica.jl
-  
+      affiliation: Universidade Federal do Cariri
+
+  license:
+    content: MIT
+
   toc:
     - file: index.md
     - file: orientacoes.md
-    - file: familiarizacao/index.md
-    - file: algebra/index.md
+    - title: Sequências didáticas
       children:
-#        - file: algebra/atividade01.ipynb
-        - file: algebra/atividade02.ipynb
-        - file: algebra/atividade03.ipynb
-    - file: numeros/index.md
-      children:
-#        - file: numeros/atividade00.ipynb
-        - file: numeros/atividade01.ipynb
-        - file: numeros/atividade02.ipynb
-        - file: numeros/atividade03.ipynb
-        - file: numeros/atividade04.ipynb
-        - file: numeros/atividade05.ipynb
-    - file: geometria/index.md
-      children:
-        - file: geometria/atividade01.ipynb
-        - file: geometria/atividade02.ipynb
-        - file: geometria/atividade03.ipynb
-        - file: Atividades Complementares.ipynb
-    - file: medidas/index.md
-      children:
-        - file: medidas/atividade01.ipynb
-        - file: medidas/atividade02.ipynb
-        - file: medidas/atividade03.ipynb
-    - file: estatistica/index.md
-      children:
-        - file: estatistica/atividade01.ipynb
-        - file: estatistica/atividade02.ipynb
-        - file: estatistica/atividade03.ipynb
-    - file: agradecimentos.md
+        - file: familiarizacao/index.md
+        - file: algebra/index.md
+          children:
+            # - file: algebra/atividade01.ipynb
+            - file: algebra/atividade02.ipynb
+            - file: algebra/atividade03.ipynb
+        - file: numeros/index.md
+          children:
+            # - file: numeros/atividade00.ipynb
+            - file: numeros/atividade01.ipynb
+            - file: numeros/atividade02.ipynb
+            - file: numeros/atividade03.ipynb
+            - file: numeros/atividade04.ipynb
+            - file: numeros/atividade05.ipynb
+        - file: geometria/index.md
+          children:
+            - file: geometria/atividade01.ipynb
+            - file: geometria/atividade02.ipynb
+            - file: geometria/Atividade03.ipynb
+            # - file: geometria/Atividades Complementares.ipynb
+        - file: medidas/index.md
+          children:
+            - file: medidas/atividade01.ipynb
+            - file: medidas/atividade02.ipynb
+            - file: medidas/atividade03.ipynb
+        - file: estatistica/index.md
+          children:
+            - file: estatistica/atividade01.ipynb
+            - file: estatistica/atividade02.ipynb
+            - file: estatistica/atividade03.ipynb
+    - file: sobre.md
 
   exclude:
     - README.md
     - LICENSE
-    
-  exports:
-    - format: typst
-      template: lapreprint-typst
-      kind: "Caderno Digital"
-      open-access: true
-      logo: public/logo.svg
-      paper-size: "A4"
-      heading-numbering: "1.a.i"
-      font-face: "Times"
-      articles:
-        - index.md
-        - orientacoes.md
-        - atividades.md
-        - agradecimentos.md
+    - capa/**
+    - template/**
+
+extends:
+  - export.yml
 
 site:
   template: book-theme
   options:
-    style: public/style.css
-    logo: public/logo.svg
-    folders: false
+    style: assets/style.css
+    logo: assets/logo.svg
+    folders: true
+    hide_authors: true
   actions:
-    - title: GitHub
-      url: https://github.com/OnMat/SPAECE-Games
-  #   favicon: favicon.ico
+    - title: GitHub Repo
+      url: https://github.com/OnMat/Matematica.jl
+    - title: Feedback
+      url: https://github.com/OnMat/Matematica.jl/issues
+    - title: Download PDF
+      url: ./exports/Matematica.jl.pdf
+  # favicon: assets/favicon.ico

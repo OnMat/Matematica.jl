@@ -1,7 +1,6 @@
 ---
 title: Lidando com Expressões Algébricas
-subject: Sequeência Didática
-authors: ""
+subject: Sequência Didática
 ---
 
 Esta sequência tem por objetivo introduzir o conceito de valor numérico de uma expressão algébrica, explorando situações em que o aluno precisa substituir variáveis por valores reais e realizar os cálculos corretamente.

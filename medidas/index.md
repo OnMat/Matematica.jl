@@ -12,4 +12,4 @@ Esta atividade está fundamentada em uma abordagem lúdica, por meio de um jogo,
 
 ## Carga horária
 
-Quatro aula de 50 minutos. 
+Quatro aulas de 50 minutos. 
