@@ -11,4 +11,4 @@ A construção da calculadora denominada _Calculadora de Tendências Centrais_ t
 
 ## Carga horária
 
-Quatro aula de 50 minutos 
+Quatro aulas de 50 minutos 

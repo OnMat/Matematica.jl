@@ -1,0 +1,33 @@
+# Sumário do PDF (usado em export.yml). A raiz (index) não entra no PDF:
+# cada "chapter" vira um capítulo e cada "section" uma seção dele.
+format: jb-book
+root: index
+chapters:
+  - file: orientacoes
+  - file: familiarizacao/index
+  - file: algebra/index
+    sections:
+      - file: algebra/atividade02
+      - file: algebra/atividade03
+  - file: numeros/index
+    sections:
+      - file: numeros/atividade01
+      - file: numeros/atividade02
+      - file: numeros/atividade03
+      - file: numeros/atividade04
+      - file: numeros/atividade05
+  - file: geometria/index
+    sections:
+      - file: geometria/atividade01
+      - file: geometria/atividade02
+      - file: geometria/Atividade03
+  - file: medidas/index
+    sections:
+      - file: medidas/atividade01
+      - file: medidas/atividade02
+      - file: medidas/atividade03
+  - file: estatistica/index
+    sections:
+      - file: estatistica/atividade01
+      - file: estatistica/atividade02
+      - file: estatistica/atividade03

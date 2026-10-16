@@ -1,0 +1,63 @@
+version: 1
+project:
+
+  downloads:
+    - id: output-pdf
+      title: Matematica.jl (PDF)
+
+  exports:
+    - id: output-pdf
+      format: typst
+      template: ./template
+      output: ./exports/Matematica.jl.pdf
+      # capítulos e seções do PDF: ver pdf-toc.yml
+      toc: pdf-toc.yml
+# additional options #
+
+# Capa (imagem de página inteira, gerada a partir de capa/capa.typ)
+      cover: assets/capa.png
+      coverposition: 0  #in cm from title
+      cover_width: 21 #in cm
+
+# Imagem de fundo (todas as páginas, exceto a capa)
+      background: assets/fundo.png
+
+# ToC
+      ToC_depth: 2
+      show_ToC: true
+
+# Page settings
+      papersize: a4
+      # margens ABNT (NBR 14724): superior e esquerda 3 cm, inferior e direita 2 cm
+      margin_top: 3 #cm
+      margin_bottom: 2 #cm
+      margin_left: 3 #cm
+      margin_right: 2 #cm
+      show_pagenumber: true
+
+      #### Fonts
+      fontsize: 12
+      fontstyle:
+      linespacing: .5
+      justification: true
+
+      #### Theme
+      colortheme: rgb("#4B2A73")
+      colorheadings: rgb("#4B2A73")
+
+# Prefácio (não aparece no site, só no PDF)
+      preface_place: Juazeiro do Norte, CE, Brasil
+      preface_date: outubro de 2026
+      preface_signature: José Jailton A. do Nascimento
+      preface: |
+        Os resultados das avaliações externas mostram, ano após ano, que algumas habilidades da matemática do ensino fundamental resistem ao ensino tradicional: calcular o valor numérico de uma expressão algébrica, operar com frações, converter unidades de medida, interpretar coordenadas no plano ou calcular uma média. Várias dessas habilidades, que integram a matriz de referência do Sistema Permanente de Avaliação da Educação Básica do Ceará (SPAECE) para o 9º ano, estão entre as que apresentam os maiores índices de erro.
+
+        Este material contém o produto educacional da dissertação “Explorando Cadernos Digitais no Ensino de Matemática com Julia”, apresentada ao Programa de Pós-Graduação em Matemática em Rede Nacional da Universidade Federal do Cariri. O produto é um conjunto de cadernos digitais, escritos em Jupyter Notebook com a linguagem de programação Julia, organizados em sequências didáticas que contemplam as cinco unidades temáticas da Base Nacional Comum Curricular.
+
+        A proposta parte da resolução de problemas. Organizados em grupos, os estudantes enfrentam situações-problema contextualizadas, no estilo das avaliações externas, e decidem com o professor quais recursos da linguagem usar para resolvê-las. Ao longo das sequências, eles constroem calculadoras e conversores, jogam e programam suas próprias soluções, de modo que o computador deixa de ser apenas uma ferramenta de cálculo e passa a ser um meio de investigação matemática.
+
+        O material está organizado para o professor. O primeiro capítulo traz as orientações gerais e o segundo, uma sequência de familiarização com o Jupyter e a Julia. Em seguida, vêm as sequências didáticas sobre expressões algébricas, frações, triângulos no plano cartesiano, unidades de massa e medidas de tendência central, cada uma com os descritores do SPAECE relacionados, a carga horária prevista e as atividades com suas soluções.
+
+        Esperamos que estes cadernos possam ser adaptados à realidade de cada escola e que o professor encontre neles uma forma de levar a programação para a aula de matemática sem perder de vista a própria matemática.
+      preface_acknowledgments: |
+        Este trabalho foi realizado com apoio financeiro da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), no âmbito do Programa de Mestrado Profissional em Matemática em Rede Nacional (PROFMAT) da Universidade Federal do Cariri. Agradeço à CAPES pelo suporte concedido, essencial para a continuidade dos meus estudos; sem esse auxílio, teria sido significativamente mais difícil manter minha dedicação ao curso e concluir esta etapa acadêmica.
