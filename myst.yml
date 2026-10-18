@@ -70,6 +70,10 @@ project:
     - capa/**
     - template/**
 
+  numbering:
+    exercise:
+      template: Exercício %s
+
 extends:
   - export.yml
 
