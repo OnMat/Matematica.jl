@@ -90,5 +90,5 @@ site:
     - title: Feedback
       url: https://github.com/OnMat/Matematica.jl/issues
     - title: Download PDF
-      url: ./exports/Matematica.jl.pdf
+      url: https://github.com/OnMat/Matematica.jl/raw/main/exports/Matematica.jl.pdf
   # favicon: assets/favicon.ico
