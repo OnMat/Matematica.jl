@@ -3,6 +3,27 @@ Um caderno digital em Julia para o ensino de matemática básica
 
 Acesse o livro [aqui](https://onmat.github.io/Matematica.jl/)!
 
+## Como executar os cadernos
+
+Os cadernos usam a linguagem [Julia](https://julialang.org/) (versão 1.10) no Jupyter.
+Depois de instalar a Julia, instale os pacotes no REPL:
+
+```julia
+using Pkg
+Pkg.add(["IJulia", "Plots"])
+```
+
+O `IJulia` registra o kernel da Julia no Jupyter, e o `Plots` é usado no jogo do triângulo
+(`geometria/`). Os demais cadernos usam só a biblioteca padrão da Julia.
+
+Os desafios do triângulo (`geometria/Atividade03.ipynb`) carregam os códigos do jogo com
+`include("triangulo.jl")`. Esses códigos também aparecem na página *Área de Códigos*
+(`geometria/atividade02.ipynb`): ao alterar um deles, altere também o outro.
+
+Quase todos os cadernos leem dados digitados pelo aluno (`readline()`), por isso precisam
+ser executados célula a célula. Antes de publicar uma alteração, execute de novo as células
+modificadas para atualizar as saídas que aparecem no site.
+
 ## Site
 
 O site é publicado pelo GitHub Actions a cada push na branch `main`
