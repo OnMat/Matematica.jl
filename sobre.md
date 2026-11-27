@@ -20,10 +20,12 @@ inteligência artificial Claude.ai.
 
 ## Licença e citação
 
-Os cadernos, o código e os textos são distribuídos sob a licença MIT. Podem ser
-copiados, impressos, adaptados e usados em sala de aula, inclusive com modificações,
-desde que mantido o aviso de direitos autorais e de licença (ver o arquivo `LICENSE` do
-repositório).
+Os cadernos, o código, os textos e o PDF do produto educacional são distribuídos sob a
+licença [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pt-br).
+Podem ser copiados, impressos, adaptados e usados em sala de aula ou em qualquer outro
+contexto, inclusive com modificações, desde que se dê o devido crédito aos autores, se
+inclua um link para a licença e se indique se houve alterações (ver o arquivo `LICENSE`
+do repositório).
 
 Para citar o trabalho:
 

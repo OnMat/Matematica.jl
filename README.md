@@ -58,3 +58,14 @@ typst compile --format png --ppi 150 caderno.typ ../assets/caderno.png
 
 Também podem ser substituídas por imagens feitas em outro programa, desde que no
 tamanho A4 (1240 × 1754 pixels a 150 ppi).
+
+## Licença
+
+Todo o conteúdo deste repositório (cadernos, código, textos, imagens e o PDF do produto
+educacional) está sob a licença
+[Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pt-br):
+pode ser copiado, adaptado e redistribuído para qualquer fim, desde que se dê o crédito
+aos autores, se inclua um link para a licença e se indique se houve alterações. Veja o
+arquivo [`LICENSE`](LICENSE). A exceção é a pasta `template/`, derivada do modelo
+[plain_typst_book](https://github.com/myst-templates/plain_typst_book) e mantida sob a
+licença MIT original (`template/LICENSE`).

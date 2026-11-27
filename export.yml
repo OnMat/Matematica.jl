@@ -45,6 +45,18 @@ project:
       colortheme: rgb("#4B2A73")
       colorheadings: rgb("#4B2A73")
 
+# Direitos autorais e licença (verso da capa, só no PDF)
+      rights: |
+        Matematica.jl: caderno digital em Julia para o ensino de matemática nos anos finais do Ensino Fundamental
+
+        José Jailton Azevedo do Nascimento e Vicente Helano F. Batista Sobrinho
+
+        Produto educacional da dissertação “Explorando Cadernos Digitais no Ensino de Matemática Básica com Julia” — PROFMAT, Universidade Federal do Cariri, Juazeiro do Norte, CE, 2025.
+
+        Site e código-fonte: https://github.com/OnMat/Matematica.jl
+
+        © 2025–2026 José Jailton Azevedo do Nascimento e Vicente Helano F. Batista Sobrinho. Esta obra está licenciada sob a Licença Creative Commons Atribuição 4.0 Internacional (CC BY 4.0). Você pode copiar, redistribuir, adaptar e usar este material para qualquer fim, inclusive comercial, desde que atribua o devido crédito aos autores, inclua um link para a licença e indique se foram feitas alterações. Para ver uma cópia da licença, visite https://creativecommons.org/licenses/by/4.0/deed.pt-br.
+
 # Prefácio (não aparece no site, só no PDF)
       preface_place: Juazeiro do Norte, CE, Brasil
       preface_date: 17 outubro de 2026

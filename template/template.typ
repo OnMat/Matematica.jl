@@ -111,6 +111,9 @@
   justification: [-options.justification-],
 [# endif #]
 
+[# if options.rights #]
+  rights: "[-options.rights-]",
+[# endif #]
 [# if options.preface is defined #]
   preface: "[-options.preface-]",
 [# endif #]

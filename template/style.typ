@@ -30,6 +30,9 @@
   ToC_depth: 2,
   show_ToC: true,
 
+  // DIREITOS AUTORAIS E LICENÇA (verso da capa)
+  rights: none,
+
   // PREFACE
   preface: none,
   preface_place: none,      // ex.: "Juazeiro do Norte, CE, Brasil"
@@ -170,6 +173,17 @@
       right: margin_right
       )
   )
+
+// VERSO DA CAPA: direitos autorais e licença, no pé da página
+    if rights != none {
+      pagebreak()
+      align(bottom, block(width: 100%)[
+        #set text(size: 0.85 * fontsize)
+        #set par(justify: false, first-line-indent: 0em, leading: 0.6em, spacing: 0.9em)
+        #line(length: 100%, stroke: 0.5pt + theme)
+        #rights
+      ])
+    }
 
 // PREFACE, 
     if preface != none {

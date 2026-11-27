@@ -47,6 +47,9 @@ options:
   - id: cover
     type: file
     description: An image path that is shown in the front page
+  - id: rights
+    type: string
+    description: texto de direitos autorais e licença, impresso no verso da capa
   - id: bibliography_file
     type: file
     description: arquivo .bib usado diretamente na lista de referências

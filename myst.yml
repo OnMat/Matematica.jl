@@ -24,8 +24,7 @@ project:
     - name: Vicente Helano F. Batista Sobrinho
       affiliation: Universidade Federal do Cariri
 
-  license:
-    content: MIT
+  license: CC-BY-4.0
 
   toc:
     - file: index.md
