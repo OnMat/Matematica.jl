@@ -1,25 +1,3 @@
-Matematica.jl — Caderno digital em Julia para o ensino de matemática
-Copyright (c) 2025–2026 José Jailton Azevedo do Nascimento e
-Vicente Helano F. Batista Sobrinho (OnMat)
-
-Este trabalho — cadernos, código, textos, imagens e o PDF do produto
-educacional — está licenciado sob a Licença Creative Commons Atribuição 4.0
-Internacional (CC BY 4.0).
-
-Resumo (não substitui o texto legal abaixo): você pode copiar, redistribuir,
-adaptar e usar o material para qualquer fim, inclusive comercial, desde que
-atribua o devido crédito aos autores, inclua um link para a licença e indique
-se foram feitas alterações.
-
-Resumo da licença: https://creativecommons.org/licenses/by/4.0/deed.pt-br
-Texto legal:       https://creativecommons.org/licenses/by/4.0/legalcode.pt
-
-Exceção: os arquivos da pasta template/ são derivados do modelo
-plain_typst_book (myst-templates) e continuam sob a licença MIT, conforme
-template/LICENSE.
-
--------------------------------------------------------------------------------
-
 Creative Commons Attribution 4.0 International
 
  Creative Commons Corporation (“Creative Commons”) is not a law firm and does not provide legal services or legal advice. Distribution of Creative Commons public licenses does not create a lawyer-client or other relationship. Creative Commons makes its licenses and related information available on an “as-is” basis. Creative Commons gives no warranties regarding its licenses, any material licensed under their terms and conditions, or any related information. Creative Commons disclaims all liability for damages resulting from their use to the fullest extent possible.

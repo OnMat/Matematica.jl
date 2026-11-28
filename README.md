@@ -61,6 +61,8 @@ tamanho A4 (1240 × 1754 pixels a 150 ppi).
 
 ## Licença
 
+© 2025–2026 José Jailton Azevedo do Nascimento e Vicente Helano F. Batista Sobrinho (OnMat).
+
 Todo o conteúdo deste repositório (cadernos, código, textos, imagens e o PDF do produto
 educacional) está sob a licença
 [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.pt-br):
